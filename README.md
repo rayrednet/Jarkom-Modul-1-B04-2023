@@ -20,7 +20,7 @@
 | Immanuel Pascanov Samosir            | 5025211257 |
 
 ### ⭐ Nomor 1
-#### Soal
+### Soal
 User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file. <br/>
 a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut? <br/>
 b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut? <br/>
@@ -28,47 +28,47 @@ c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari ak
 d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut? <br/>
 
 
-##### Jawaban:
-###### Langkah Pengerjaan beserta Screenshot
+#### Jawaban:
+##### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
-###### Kendala yang dialami
+##### Kendala yang dialami
 
 ### ⭐ Nomor 2
-##### Soal
+### Soal
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
-##### Jawaban:
-###### Langkah Pengerjaan beserta Screenshot
+#### Jawaban:
+##### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-###### Kendala yang dialami
+##### Kendala yang dialami
 
 
 ### ⭐ Nomor 3
-#### Soal
+### Soal
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: <br />
 a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702? <br />
 b. Protokol layer transport apa yang digunakan? <br />
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 4
-#### Soal
+### Soal
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Untuk mencapai penyelesaian masalah ini, kami telah melakukan langkah-langkah berikut: </br>
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 5
-#### Soal
+### Soal
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut. <br />
 a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut? <br />
 b. Port berapakah pada server yang digunakan untuk service SMTP? <br />
@@ -81,7 +81,7 @@ Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal in
 ##### Kendala yang dialami
 
 ### ⭐ Nomor 6
-##### Soal
+### Soal
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 
 #### Jawaban:
@@ -91,7 +91,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 ###### Kendala yang dialami
 
 ### ⭐ Nomor 7
-#### Soal
+### Soal
 Berapa jumlah packet yang menuju IP 184.87.193.88?
 #### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
@@ -100,7 +100,7 @@ Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </
 ##### Kendala yang dialami
 
 ### ⭐ Nomor 8
-#### Soal
+### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
 
 #### Jawaban:
@@ -110,7 +110,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 ##### Kendala yang dialami
 
 ### ⭐ Nomor 9
-#### Soal
+### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
 #### Jawaban:
@@ -120,7 +120,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 ##### Kendala yang dialami
 
 ### ⭐ Nomor 10
-#### Soal
+### Soal
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 
 #### Jawaban:
