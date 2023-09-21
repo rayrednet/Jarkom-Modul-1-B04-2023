@@ -28,21 +28,21 @@ c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari ak
 d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut? <br/>
 
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 2
 ### Soal
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 
 ### ⭐ Nomor 3
@@ -74,57 +74,58 @@ a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut? <br />
 b. Port berapakah pada server yang digunakan untuk service SMTP? <br />
 c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP? <br />
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 6
 ### Soal
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-###### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 7
 ### Soal
 Berapa jumlah packet yang menuju IP 184.87.193.88?
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 8
 ### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 9
 ### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-##### Kendala yang dialami
+#### Kendala yang dialami
 
 ### ⭐ Nomor 10
 ### Soal
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 
-#### Jawaban:
-##### Langkah Pengerjaan beserta Screenshot
+### Jawaban:
+#### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
-##### Kendala yang dialami
+#### Kendala yang dialami
