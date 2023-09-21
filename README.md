@@ -56,6 +56,31 @@ Untuk melihat acknowledge number (raw) pada packet tersebut, kita dapat scroll k
 
 Maka, dapat dilihat bahwa acknowledge number (raw) pada packet aktivitas mengunggah suatu file adalah `1044861039`
 
+**1c. Sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut** <br />
+Untuk mencari response dari aktivitas yang dimaksud, gunakan filter wireshark berikut:
+
+```
+ftp contains "GrabThePhisher"
+```
+
+Filter Wireshark tersebut digunakan untuk menyaring semua paket dalam capture yang mengandung string "GrabThePhisher" dalam lalu lintas FTP. String "GrabThePhisher" merupakan bagian daru request yang dimaksud pada soal tersebut. Setelah filter dijalankan, akan keluar output sebagai berikut:
+
+<img width="956" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/68e41480-9608-4222-9518-05e32aa5e545">
+
+Selanjutnya, double click pada packet yang memiliki `Info Response` untuk melihat detail pada bagian Transimission Control Protocol
+
+<img width="960" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9fe77c9c-6243-43e2-9211-e06abb8ea232">
+
+Dapat dilihat bahwa sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut adalah `1044861039`
+
+**1d. Acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut** <br />
+
+Acknowledge number (raw) pada response aktivitas berada pada bagian Transimission Control Protocol. Maka, kita hanya perlu scroll ke bawah pada bagian Transimission Control Protocol sebagai berikut:
+
+<img width="954" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0c6e059b-c79b-4a53-a844-bde34901c307">
+
+Dapat dilihat bahwa acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut adalah `258040696`
+
 #### Kendala yang dialami
 
 ### ⭐ Nomor 2
