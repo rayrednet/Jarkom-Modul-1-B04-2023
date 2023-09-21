@@ -31,6 +31,22 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
+**1a. Sequence number (raw) pada packet aktivitas mengunggah suatu file** <br />
+Langkah pertama adalah melakukan filter di wireshark sebagai berikut:
+```ftp.request.command == STOR ```
+Perintah filter terserbut akan melakukan penyaringan pada lalu lintas jaringan yang mengandung perintah FTP (File Transfer Protocol) yang memiliki perintah "STOR". 
+- ftp.request.command: Bagian ini adalah bagian pertama dari filter. Ini mengacu pada protokol FTP dan mengidentifikasi paket-paket yang berisi perintah FTP yang dikirimkan dari klien FTP ke server FTP.
+- ==: Ini adalah operator perbandingan yang digunakan untuk memeriksa apakah nilai di sebelah kiri sama dengan nilai di sebelah kanan.
+- STOR: Ini adalah perintah FTP yang digunakan untuk mengunggah (upload) file ke server FTP
+Dari filter tersebut, akan menghasilkan keluaran 1 paket sebagai berikut:
+
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0a13ab79-650c-4ac8-b03a-1508c1e441af">
+
+Langkah kedua, kita lihat detail paket dengan cara double klik pada paket tersebut, kemudian expand bagian Transimission Control Protocol
+
+<img width="956" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0d8762f9-0d43-415a-bf50-f145a6f0ee3b">
+
+Dari informasi di atas, dapat dilihat bahwa sequence number (raw) pada packet yang dimaksud adalah `258040667`
 
 #### Kendala yang dialami
 
