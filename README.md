@@ -97,8 +97,26 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-#### Kendala yang dialami
+Langkah pertama, gunakan filter pada wireshark:
 
+```http contains "Praktikum"```
+
+Karena kita harus mencari web server maka protocol yang digunakan adalah `HTTP`, dan gunakan keyword pada filter `Praktikum` sebab kita harus mencari web server pada portal praktikum jaringan komputer. Filter tersebut akan mengeluarkan hasil sebagai berikut:
+
+<img width="946" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/287c83ce-5cdd-40a9-9709-ea73eab6bb5e">
+
+Langkah kedua, pilih packet yang pertama (memiliki tulisan `OK (text/html)`), klik kanan pilih `Follow -> HTTP Stream`. Akan terbuka window sebagai berikut:
+
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/32780dbe-70a0-4b51-a8ef-bc6dde1cc341">
+
+Jadi, web server yang digunakan pada portal praktikum Jaringan Komputer adalah `gunicorn`
+
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
+
+<img width="780" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/67ff7314-cf82-438f-ab9c-b9772751df90">
+
+#### Kendala yang dialami
+Belum ditemukan kendala saat mengerjakan soal nomor 2
 
 ### ⭐ Nomor 3
 ### Soal
@@ -110,6 +128,8 @@ b. Protokol layer transport apa yang digunakan? <br />
 #### Langkah Pengerjaan beserta Screenshot
 Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
 
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
+
 #### Kendala yang dialami
 
 ### ⭐ Nomor 4
@@ -119,6 +139,9 @@ Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Untuk mencapai penyelesaian masalah ini, kami telah melakukan langkah-langkah berikut: </br>
+
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
+
 
 #### Kendala yang dialami
 
@@ -132,6 +155,7 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP? 
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
 
@@ -142,6 +166,7 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
 
@@ -152,6 +177,7 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
 
@@ -162,6 +188,7 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
 
@@ -172,6 +199,7 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
 
@@ -182,5 +210,6 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
+Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
