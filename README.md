@@ -28,8 +28,9 @@ c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari ak
 d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut? <br/>
 
 
-##### Jawaban
+##### Jawaban:
 ###### Langkah Pengerjaan beserta Screenshot
+Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
 ###### Kendala yang dialami
 
@@ -37,21 +38,22 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 ##### Soal
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
-##### Jawaban
-
+##### Jawaban:
 ###### Langkah Pengerjaan beserta Screenshot
+Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
 ###### Kendala yang dialami
 
 
 ### ⭐ Nomor 3
 #### Soal
-Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
-a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
-b. Protokol layer transport apa yang digunakan?
+Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: <br />
+a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702? <br />
+b. Protokol layer transport apa yang digunakan? <br />
 
-#### Jawaban
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
 
 ##### Kendala yang dialami
 
@@ -59,20 +61,22 @@ b. Protokol layer transport apa yang digunakan?
 #### Soal
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
-#### Jawaban
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Untuk mencapai penyelesaian masalah ini, kami telah melakukan langkah-langkah berikut: </br>
 
 ##### Kendala yang dialami
 
 ### ⭐ Nomor 5
 #### Soal
-Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
-a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
-b. Port berapakah pada server yang digunakan untuk service SMTP?
-c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
+Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut. <br />
+a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut? <br />
+b. Port berapakah pada server yang digunakan untuk service SMTP? <br />
+c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP? <br />
 
-#### Jawaban
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
 ##### Kendala yang dialami
 
@@ -80,17 +84,18 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 ##### Soal
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 
-#### Jawaban
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
 ###### Kendala yang dialami
 
 ### ⭐ Nomor 7
 #### Soal
 Berapa jumlah packet yang menuju IP 184.87.193.88?
-#### Jawaban
-
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
 
 ##### Kendala yang dialami
 
@@ -98,8 +103,9 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 #### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
 
-#### Jawaban
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
 ##### Kendala yang dialami
 
@@ -107,8 +113,9 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 #### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
-#### Jawaban
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
 ##### Kendala yang dialami
 
@@ -116,7 +123,8 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 #### Soal
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 
-#### Jawaban
+#### Jawaban:
 ##### Langkah Pengerjaan beserta Screenshot
+Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
 ##### Kendala yang dialami
