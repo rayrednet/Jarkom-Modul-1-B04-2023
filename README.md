@@ -1,25 +1,16 @@
 # Laporan Resmi Praktikum Jaringan Komputer Modul 1 - Crimping & Wireshark
 
 ## Daftar Isi
-[Nomor 1 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-1)
-
-[Nomor 2 - Stream](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-2)
-
-[Nomor 3 - Analysis](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-3)
-
-[Nomor 4 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-4)
-
-[Nomor 5 - Analysis](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-5)
-
-[Nomor 6 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-6)
-
-[Nomor 7 - Filtering](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-7)
-
-[Nomor 8 - Filtering](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-8)
-
-[Nomor 9 - Filtering](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-9)
-
-[Nomor 10 - Stream](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-10)
+[Nomor 1 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-1) <br/>
+[Nomor 2 - Stream](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-2) <br/>
+[Nomor 3 - Analysis](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-3) <br/>
+[Nomor 4 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-4) <br/>
+[Nomor 5 - Analysis](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-5) <br/>
+[Nomor 6 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-6) <br/>
+[Nomor 7 - Filtering](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-7) <br/>
+[Nomor 8 - Filtering](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-8) <br/>
+[Nomor 9 - Filtering](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-9) <br/>
+[Nomor 10 - Stream](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-10) <br/>
 
 
 ## Identitas Kelompok
