@@ -297,7 +297,7 @@ Langkah pertama untuk mencari jumlah packet yang menuju IP 184.87.193.88 pada so
 ![image](images/soal7part1)
 
 
-Lalu yang terakhir dan sesuai pada screenshot dibawah, jumlah packet yang menuju IP tersebut adalah 6.
+Lalu yang terakhir dan sesuai pada screenshot dibawah, jumlah packet yang terdisplay menuju alamat IP tersebut adalah 6.
 
 ![image](images/soal7part2)
 
