@@ -207,6 +207,14 @@ Langkah pertama, kita harus menemukan `nc` pada soal ini terlebih dahulu. Untuk 
 
 <img width="959" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/40b11b36-798c-4f9c-b16f-0b1c726e39e0">
 
+Pada soal ini juga terdapat file .zip yang diberi password untuk membukanya. Untuk mengetahui password dari file zip tersebut, kita harus melakukan decrypt sesuai yang tertera pada email tersebut. Kami menggunakan bantuan dari https://www.base64decode.org/ untuk melakukan dekripsi yang diperoleh sebagai berikut:
+
+<img width="369" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/16befc01-cdb4-4389-b99d-91dc19fbfb15">
+
+Maka, password dari file .zip tersebut adalah `5implePas5word`. Setelah itu, kita unzip file zip dan ditemukan file .txt yang berisi `nc` soal sebagai berikut:
+
+<img width="246" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/c1d809ef-d5a8-422b-939f-4cbfd47dd775">
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 <img width="309" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/6b67a613-9ed1-4628-b26c-3aa10b801007">
