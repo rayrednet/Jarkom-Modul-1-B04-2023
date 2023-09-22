@@ -376,13 +376,24 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 #### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
-Langkah pertama untuk mencari kredensial pada soal10.pcapng, kita dapat melakukannya dengan menggunakan filter telnet yang berhubungan dengan kredensial disini kami melakukannya dengan expression filter contains “Password” lalu paket yang berisi kredensial akan terfilter 
+Telnet adalah protokol yang digunakan untuk mengakses dan mengendalikan perangkat jarak jauh melalui koneksi jaringan. Namun, Telnet mengirim data dalam teks terbuka (plaintext), yang berarti bahwa informasi seperti username dan password yang dimasukkan oleh pengguna tidak dienkripsi.
 
-![soal10filter](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/cfde8b7b-ccbe-4127-b374-e69f8226a087)
+Langkah pertama, untuk menemukan kredensial pada soal ini kita gunakan filter `telnet contains "Password"` yang akan menghasilkan output sebagai berikut:
 
-lalu berikutnya kita akan melakukan follow tcp stream, dan pada screenshot berikut terlihat bahwa paket tersebut tertangkap dan berisi kredensial yang benar.
+<img width="959" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ead7b19b-2405-4214-92ab-dded49b9225f">
 
-![soal10follow](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/d54c9267-d7be-415b-abc8-6f78a26f3b23)
+Filter tersebut digunakan dalam Wireshark untuk mencari kredensial (username dan password) yang mungkin terbuka dalam data paket saat pengguna mencoba login menggunakan protokol Telnet.
+
+Langkah kedua, kita mencari kredensial dengan membuka melakukan follow TCP stream. Diperoleh hasil output sebagai berikut:
+
+![image](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/96e2fc2c-2587-4e29-8003-2fecdc0378c0)
+
+Pada screenshot di atas, terlihat bahwa terdapat kredensial user yang berupa login dan password. Apabila kita perhatikan terdapat 2 warna di dalam stream tersebut, `warna merah menanadakan client` dan `warna biru menandakan server`. Untuk melihat kredensial, kita harus melihat secara khusus pada stream paket dari client, maka diperoleh sebagai berikut:
+
+<img width="955" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ce0471f4-e91c-41ea-adc4-d3e34717deb8">
+
+Maka dari itu, kredensial user pada soal ini dengan format username:password adalah `dhafin:kesayangannyak0k0`
+
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
