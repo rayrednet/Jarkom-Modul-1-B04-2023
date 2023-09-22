@@ -298,11 +298,11 @@ Langkah pertama untuk mencari jumlah packet yang menuju IP 184.87.193.88 pada so
 
 Lalu yang terakhir dan sesuai pada screenshot dibawah, jumlah packet yang terdisplay menuju alamat IP tersebut adalah 6.
 
-<img width="138" alt="soal7part2" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/816feb51-c45c-4ffc-8fd2-43f6f5a8245c">
+<img width="276" alt="soal7part2" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/816feb51-c45c-4ffc-8fd2-43f6f5a8245c">
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-![flag7](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/b727fdba-f126-468c-8d38-c49004289218)
+![soal7flag](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/351d809f-b2e5-4115-8ce0-207c5e009606)
 
 #### Kendala yang dialami
 
