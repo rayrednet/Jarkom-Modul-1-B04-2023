@@ -1,4 +1,4 @@
-<img width="138" alt="soal7part2" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/8e0ca9d8-4008-4749-9570-01d3593309af"># Laporan Resmi Praktikum Jaringan Komputer Modul 1 - Crimping & Wireshark
+# Laporan Resmi Praktikum Jaringan Komputer Modul 1 - Crimping & Wireshark
 
 ## Daftar Isi
 [Nomor 1 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-1) <br/>
