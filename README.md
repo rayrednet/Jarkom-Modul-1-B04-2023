@@ -215,6 +215,14 @@ Maka, password dari file .zip tersebut adalah `5implePas5word`. Setelah itu, kit
 
 <img width="246" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/c1d809ef-d5a8-422b-939f-4cbfd47dd775">
 
+**5a. Banyak packet di file pcap**
+
+Banyaknya packet yang tercapture dapat dilihat di bagian bawah kanan wireshark, yaitu `60` packet.
+
+<img width="957" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/2e51c13f-4bdb-4eb8-8c06-552de36b9224">
+
+**5b. Port yang digunakan pada server untuk service SMTP**
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 <img width="309" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/6b67a613-9ed1-4628-b26c-3aa10b801007">
