@@ -52,7 +52,7 @@ Dari informasi di atas, dapat dilihat bahwa sequence number (raw) pada packet ya
 **1b. Acknowledge number (raw) pada packet aktivitas mengunggah suatu file** <br />
 Untuk melihat acknowledge number (raw) pada packet tersebut, kita dapat scroll ke bawah di bagian Transimission Control Protocol, sehingga diperoleh sebagai berikut:
 
-<img width="961" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/e8439880-2f1d-45af-b9a6-d857620508e7">
+<img width="961" alt="Screenshot at 2023-09-22 06_27_10-Jarkom-Modul-1-B04-2023 - Google Drive" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/2b9968e1-066e-46f8-89e6-c9f41cb6fc96">
 
 Maka, dapat dilihat bahwa acknowledge number (raw) pada packet aktivitas mengunggah suatu file adalah `1044861039`
 
@@ -65,7 +65,7 @@ ftp contains "GrabThePhisher"
 
 Filter Wireshark tersebut digunakan untuk menyaring semua paket dalam capture yang mengandung string "GrabThePhisher" dalam lalu lintas FTP. String "GrabThePhisher" merupakan bagian daru request yang dimaksud pada soal tersebut. Setelah filter dijalankan, akan keluar output sebagai berikut:
 
-<img width="956" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/68e41480-9608-4222-9518-05e32aa5e545">
+<img width="956" alt="Screenshot at 2023-09-22 06_33_05-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/d94b7c75-adf6-4667-bc80-aa05825d091a">
 
 Selanjutnya, double click pada packet yang memiliki `Info Response` untuk melihat detail pada bagian Transimission Control Protocol
 
