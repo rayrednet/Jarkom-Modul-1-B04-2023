@@ -352,6 +352,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 
 Langkah pertama, untuk mengambil semua paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34` adalah dengan memberikan filter expression `(ip.src == 10.51.40.1 && ip.dst != 10.39.55.34)`.
 
+![soal9](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/a69cd52a-0148-4c36-bd6d-fef85921503d)
 
 Penjelasan filter :
 
