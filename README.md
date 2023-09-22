@@ -309,6 +309,8 @@ Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
 
+Belum ditemukan kendala dalam pengerjaan soal nomor 7
+
 ### ⭐ Nomor 8
 ### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
@@ -316,9 +318,25 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
+
+Langkah pertama untuk mengambil semua protokol yang menuju port 80, kita dapat menggunakan filter expression ini (tcp.dstport == 80 || udp.dstport == 80), digunakan untuk mencari paket-paket yang memiliki port tujuan (dstport) 80 baik menggunakan protokol TCP atau UDP.
+
+![image](images/soal8part1)
+
+Penjelasan filter :
+    
+    1. tcp.dstport == 80 memeriksa apakah port tujuan (dstport) dari paket adalah 80 untuk protokol TCP.
+    2. udp.dstport == 80 memeriksa apakah port tujuan (dstport) dari paket adalah 80 untuk protokol UDP.
+
+    Dengan menggunakan filter tcp.port == 80 || udp.port == 80, kita akan menangkap semua paket yang ditujukan ke port 80, tanpa memandang protokol yang digunakan (TCP atau UDP). Ini memastikan bahwa kita tidak melewatkan paket yang mungkin menggunakan UDP pada port 80.
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
+![image](images/flag8.png)
+
 #### Kendala yang dialami
+
+Belum ditemukan kendala dalam pengerjaan soal nomor 8
 
 ### ⭐ Nomor 9
 ### Soal
@@ -331,6 +349,8 @@ Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
 
+Belum ditemukan kendala dalam pengerjaan soal nomor 9
+
 ### ⭐ Nomor 10
 ### Soal
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
@@ -341,3 +361,5 @@ Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal in
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 #### Kendala yang dialami
+
+Belum ditemukan kendala dalam pengerjaan soal nomor 10
