@@ -86,7 +86,6 @@ Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 <img width="747" alt="Screenshot at 2023-09-18 21_48_30-Filter Wireshark FTP STOR" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/a661f78e-1177-4c78-9859-29a832e9a39d">
 
 #### Kendala yang dialami
-
 Belum ditemukan kendala saat mengerjakan soal nomor 1
 
 ### ⭐ Nomor 2
@@ -283,6 +282,7 @@ Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 
 #### Kendala yang dialami
+Pada saat praktikum, kami tidak membuka hint soal sama sekali sehingga tidak mampu menyelesaikannya saat masa praktikum, namun kami dapat menyelesaikannya saat masa revisi.
 
 ### ⭐ Nomor 7
 ### Soal
