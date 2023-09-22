@@ -1,4 +1,4 @@
-# Laporan Resmi Praktikum Jaringan Komputer Modul 1 - Crimping & Wireshark
+<img width="138" alt="soal7part2" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/8e0ca9d8-4008-4749-9570-01d3593309af"># Laporan Resmi Praktikum Jaringan Komputer Modul 1 - Crimping & Wireshark
 
 ## Daftar Isi
 [Nomor 1 - Addressing](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023#-nomor-1) <br/>
@@ -294,16 +294,15 @@ Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </
 
 Langkah pertama untuk mencari jumlah packet yang menuju IP 184.87.193.88 pada soal6-9.pcapng, dengan menggunakan filter expression ip.dst == 184.87.193.88, yang mana artinya paket mana saja yang menuju alamat ip 184.87.193.88
 
-
-
+<img width="1265" alt="soal7part1" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/cdf208b4-1051-4f23-8109-9b006b43c9ca">
 
 Lalu yang terakhir dan sesuai pada screenshot dibawah, jumlah packet yang terdisplay menuju alamat IP tersebut adalah 6.
 
-
+<img width="138" alt="soal7part2" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/816feb51-c45c-4ffc-8fd2-43f6f5a8245c">
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-
+![flag7](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/b727fdba-f126-468c-8d38-c49004289218)
 
 #### Kendala yang dialami
 
@@ -319,7 +318,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 
 Langkah pertama untuk mengambil semua protokol yang menuju port 80, kita dapat menggunakan filter expression ini (tcp.dstport == 80 || udp.dstport == 80), digunakan untuk mencari paket-paket yang memiliki port tujuan (dstport) 80 baik menggunakan protokol TCP atau UDP.
 
-
+![soal8](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/f0ae35fb-1d96-42c0-8dc1-7f4c3f6646d6)
 
 Penjelasan filter :
     
@@ -330,7 +329,7 @@ Penjelasan filter :
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-
+![soal8flag](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/cced9258-71bb-4922-a718-9a348d8613fc)
 
 #### Kendala yang dialami
 
@@ -374,14 +373,15 @@ Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal in
 
 Langkah pertama untuk mencari kredensial pada soal10.pcapng, kita dapat melakukannya dengan menggunakan filter telnet yang berhubungan dengan kredensial disini kami melakukannya dengan expression filter contains “Password” lalu paket yang berisi kredensial akan terfilter 
 
-
+![soal10filter](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/cfde8b7b-ccbe-4127-b374-e69f8226a087)
 
 lalu berikutnya kita akan melakukan follow tcp stream, dan pada screenshot berikut terlihat bahwa paket tersebut tertangkap dan berisi kredensial yang benar.
 
-
+![soal10follow](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/d54c9267-d7be-415b-abc8-6f78a26f3b23)
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
+![soal10flag](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/460a1c9d-9371-4c5d-94a7-62806bdd89a4)
 
 #### Kendala yang dialami
 
