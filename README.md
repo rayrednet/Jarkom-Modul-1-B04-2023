@@ -69,7 +69,7 @@ Filter Wireshark tersebut digunakan untuk menyaring semua paket dalam capture ya
 
 Selanjutnya, double click pada packet yang memiliki `Info Response` untuk melihat detail pada bagian Transimission Control Protocol
 
-<img width="961" alt="Screenshot at 2023-09-22 06_27_10-Jarkom-Modul-1-B04-2023 - Google Drive" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/f89696d7-c97b-4166-a4fe-3dfeb9c00e84">
+<img width="960" alt="Screenshot at 2023-09-22 06_36_27-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/bd2eac0e-a751-4484-a774-827ff04b4d8d">
 
 Dapat dilihat bahwa sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut adalah `1044861039`
 
