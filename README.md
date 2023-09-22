@@ -392,7 +392,7 @@ Pada screenshot di atas, terlihat bahwa terdapat kredensial user yang berupa log
 
 <img width="955" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ce0471f4-e91c-41ea-adc4-d3e34717deb8">
 
-Maka dari itu, kredensial user pada soal ini dengan format username:password adalah `dhafin:kesayangannyak0k0`
+Maka dari itu, kredensial user pada soal ini dengan format `username:password` adalah `dhafin:kesayangannyak0k0`
 
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
