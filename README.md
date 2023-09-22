@@ -247,7 +247,40 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
+Langkah pertama, menggunakan filter untuk mencari `frame.number == 7812` sebab pada soal diketahui `server SOURCE ADDRESS 7812 is invalid` yang merupakan clue dari nomor paket. Diperoleh hasil filter sebagai berikut:
+
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/225fefba-eba0-4acf-bbbc-7ff9d177f7e6">
+
+Langkah kedua,apabila kita menganalisis pada soal tersebut, terdapat beberapa kata yang kapital tidak sesuai dengan aturan tata bahasa. Jika kita gabungkan huruf kapital tersebut akan membentuk kata `SUBSTITUSI`
+
+<img width="716" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/35d88be8-ee6a-473a-885d-7b1c31897da1">
+
+Langkah ketiga, pada soal juga terdapat clue `a1 e5 u21`. Jika kita perhatikan clue tersebut menunjuk kepada alfabet dan urutannya, sebagai berikut:
+
+![image](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/11b3f686-1495-4fc9-851f-0464af91cb5b)
+
+Langkah keempat, IP pada packet 7812 adalah `104.18.14.101`, jika kita melakukan substitusi angka tersebut menjadi huruf maka:
+
+```
+104.18.14.101
+10 4 18 14 10 1
+
+10 = J
+4 = D
+18 = R
+14 = N
+10 = J
+1 = A
+
+JDRNJA
+```
+
+Jadi, solusi dari soal ini adalah `JDRNJA`
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
+
+<img width="944" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/fc3bb1c7-e089-4329-b6c5-2f6322ed7cf9">
+
 
 #### Kendala yang dialami
 
