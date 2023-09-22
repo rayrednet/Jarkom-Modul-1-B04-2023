@@ -259,7 +259,7 @@ Langkah kedua,apabila kita menganalisis pada soal tersebut, terdapat beberapa ka
 
 Langkah ketiga, pada soal juga terdapat clue `a1 e5 u21`. Jika kita perhatikan clue tersebut menunjuk kepada alfabet dan urutannya, sebagai berikut:
 
-![image](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ad4127b9-82ad-4754-8a2a-77c1697a7fc9)
+![alphabet-numbers](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/685a8350-6181-47a7-9694-8563bfce00fb)
 
 Langkah keempat, IP pada packet 7812 adalah `104.18.14.101`, jika kita melakukan substitusi angka tersebut menjadi huruf maka:
 
@@ -295,11 +295,13 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 #### Langkah Pengerjaan beserta Screenshot
 Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
 
-Langkah pertama untuk mencari jumlah packet yang menuju IP 184.87.193.88 pada soal6-9.pcapng, dengan menggunakan filter expression ip.dst == 184.87.193.88, yang mana artinya paket mana saja yang menuju alamat ip 184.87.193.88
+Langkah pertama untuk mencari jumlah packet yang menuju `IP 184.87.193.88` pada `soal6-9.pcapng`, dengan menggunakan filter expression `ip.dst == 184.87.193.88`, yang mana artinya paket mana saja yang menuju alamat ip 184.87.193.88
 
 <img width="1265" alt="soal7part1" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/cdf208b4-1051-4f23-8109-9b006b43c9ca">
 
 Lalu yang terakhir dan sesuai pada screenshot dibawah, jumlah packet yang terdisplay menuju alamat IP tersebut adalah 6.
+
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ed429885-2831-4ebb-8eff-9dcabc34699a">
 
 <img width="276" alt="soal7part2" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/816feb51-c45c-4ffc-8fd2-43f6f5a8245c">
 
@@ -319,7 +321,7 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-Langkah pertama untuk mengambil semua protokol yang menuju port 80, kita dapat menggunakan filter expression ini (tcp.dstport == 80 || udp.dstport == 80), digunakan untuk mencari paket-paket yang memiliki port tujuan (dstport) 80 baik menggunakan protokol TCP atau UDP.
+Langkah pertama untuk mengambil semua protokol yang menuju port 80, kita dapat menggunakan filter expression ini `(tcp.dstport == 80 || udp.dstport == 80)`, digunakan untuk mencari paket-paket yang memiliki port tujuan (dstport) 80 baik menggunakan protokol TCP atau UDP.
 
 ![soal8](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/f0ae35fb-1d96-42c0-8dc1-7f4c3f6646d6)
 
