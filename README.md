@@ -323,7 +323,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 
 Langkah pertama untuk mengambil semua protokol yang menuju port 80, kita dapat menggunakan filter expression ini `(tcp.dstport == 80 || udp.dstport == 80)`, digunakan untuk mencari paket-paket yang memiliki port tujuan (dstport) 80 baik menggunakan protokol TCP atau UDP.
 
-![soal8](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/f0ae35fb-1d96-42c0-8dc1-7f4c3f6646d6)
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/6b957a43-7abb-45b8-804b-db9eb46191b2">
 
 Penjelasan filter :
     
@@ -337,7 +337,6 @@ Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 ![soal8flag](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89269231/cced9258-71bb-4922-a718-9a348d8613fc)
 
 #### Kendala yang dialami
-
 Belum ditemukan kendala dalam pengerjaan soal nomor 8
 
 ### ⭐ Nomor 9
@@ -349,7 +348,7 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
 
-Langkah pertama untuk mengambil semua paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34 adalah dengan memberikan filter expression (ip.src == 10.51.40.1 && ip.dst != 10.39.55.34).
+Langkah pertama, untuk mengambil semua paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34` adalah dengan memberikan filter expression `(ip.src == 10.51.40.1 && ip.dst != 10.39.55.34)`.
 
 
 
@@ -362,6 +361,7 @@ Penjelasan filter :
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
+<img width="903" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ffc23002-f362-4905-9c5b-696afbf2b097">
 
 
 #### Kendala yang dialami
