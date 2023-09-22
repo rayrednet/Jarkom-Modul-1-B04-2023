@@ -178,16 +178,17 @@ Filter Wireshark frame.number == 130 digunakan untuk menangkap paket dengan nomo
 
 Ketika filter tersebut dijalankan diperoleh:
 
-<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/1218b884-d53f-4ca4-ac57-848e71766579">
+<img width="958" alt="Screenshot at 2023-09-22 07_20_05-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ec81f342-b48e-42d6-ba2e-c308c6758672">
 
-Langkah kedua, double click pada packet yang diperoleh dan expan pada bagian User Datagram Protocol. Disitu kita akan melihat nilai checksum
-<img width="955" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/4418ca66-b9c8-4639-a7cc-11e47288cd85">
+Langkah kedua, double click pada packet yang diperoleh dan expand pada bagian `User Datagram Protocol`. Disitu kita akan melihat nilai checksum
+
+<img width="955" alt="Screenshot at 2023-09-22 07_21_02-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/38f32782-ffe0-4157-967d-0162a2dd1bd6">
 
 Jadi dapat dilihat bahwa nilai checksumnya adalah `0x18e5`
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-<img width="493" alt="Screenshot at 2023-09-18 21_51_54-(1) WhatsApp" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/7df8203e-cdfc-48c3-861c-92326808d10f">
+<img width="493" alt="Screenshot at 2023-09-18 21_51_54-(1) WhatsApp" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/79d6bd66-8c60-4de0-abea-a5aac35bfda8">
 
 #### Kendala yang dialami
 Belum ditemukan kendala dalam pengerjaan soal nomor 4
