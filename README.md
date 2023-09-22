@@ -69,7 +69,7 @@ Filter Wireshark tersebut digunakan untuk menyaring semua paket dalam capture ya
 
 Selanjutnya, double click pada packet yang memiliki `Info Response` untuk melihat detail pada bagian Transimission Control Protocol
 
-<img width="960" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9fe77c9c-6243-43e2-9211-e06abb8ea232">
+<img width="961" alt="Screenshot at 2023-09-22 06_27_10-Jarkom-Modul-1-B04-2023 - Google Drive" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/f89696d7-c97b-4166-a4fe-3dfeb9c00e84">
 
 Dapat dilihat bahwa sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut adalah `1044861039`
 
@@ -77,13 +77,13 @@ Dapat dilihat bahwa sequence number (raw) pada packet yang menunjukkan response 
 
 Acknowledge number (raw) pada response aktivitas berada pada bagian Transimission Control Protocol. Maka, kita hanya perlu scroll ke bawah pada bagian Transimission Control Protocol sebagai berikut:
 
-<img width="954" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0c6e059b-c79b-4a53-a844-bde34901c307">
+<img width="954" alt="Screenshot at 2023-09-22 06_39_00-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9a81de95-e01d-4309-afa5-5b3521b33d29">
 
 Dapat dilihat bahwa acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut adalah `258040696`
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-<img width="747" alt="Screenshot at 2023-09-18 21_48_30-Filter Wireshark FTP STOR" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/a661f78e-1177-4c78-9859-29a832e9a39d">
+<img width="747" alt="Screenshot at 2023-09-18 21_48_30-Filter Wireshark FTP STOR" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/83ef0c7c-22a6-4539-b187-0f9ab98e6838">
 
 #### Kendala yang dialami
 Belum ditemukan kendala saat mengerjakan soal nomor 1
