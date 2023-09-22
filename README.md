@@ -203,7 +203,13 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP? 
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
+Langkah pertama, kita harus menemukan `nc` pada soal ini terlebih dahulu. Untuk mencarinya, kita lihat pada file `pcap` yang disediakan. Protokol SMTP merupakan protokol yang digunakan untuk mengirim email. Apabila kita melakukan follow TCP Stream pada salah satu packet SMTP kita akan memperoleh pesan tersembunyi sebagai berikut:
+
+<img width="959" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/40b11b36-798c-4f9c-b16f-0b1c726e39e0">
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
+
+<img width="309" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/6b67a613-9ed1-4628-b26c-3aa10b801007">
 
 #### Kendala yang dialami
 
