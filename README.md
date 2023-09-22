@@ -345,7 +345,22 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
+
+
+Langkah pertama untuk mengambil semua paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34 adalah dengan memberikan filter expression (ip.src == 10.51.40.1 && ip.dst != 10.39.55.34).
+
+![image](images/soal9part1)
+
+Penjelasan filter :
+
+    1. ip.src == 10.51.40.1: Kondisi pertama memeriksa apakah alamat sumber (ip.src) dari paket adalah 10.51.40.1. Ini berarti filter akan memilih paket-paket yang berasal dari alamat IP 10.51.40.1.
+    2. ip.dst != 10.39.55.34: Kondisi kedua memeriksa apakah alamat tujuan (ip.dst) dari paket tidak sama dengan 10.39.55.34. Ini berarti filter akan membuang paket-paket yang menuju ke alamat IP 10.39.55.34
+
+    Maka filter tersebut akan sesuai permintaan soal, namun tidak ada paket yang tertangkap menggunakan filter tersebut.
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
+
+
 
 #### Kendala yang dialami
 
@@ -358,7 +373,17 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
+
+Langkah pertama untuk mencari kredensial pada soal10.pcapng, kita dapat melakukannya dengan menggunakan filter telnet yang berhubungan dengan kredensial disini kami melakukannya dengan expression filter contains “Password” lalu paket yang berisi kredensial akan terfilter 
+
+![image](images/soal10part1)
+
+lalu berikutnya kita akan melakukan follow tcp stream, dan pada screenshot berikut terlihat bahwa paket tersebut tertangkap dan berisi kredensial yang benar.
+
+![image](images/soal10part2)
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
+
 
 #### Kendala yang dialami
 
