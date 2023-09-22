@@ -32,9 +32,12 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 #### Langkah Pengerjaan beserta Screenshot
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 
-**1a. Sequence number (raw) pada packet aktivitas mengunggah suatu file** <br />
-Langkah pertama adalah melakukan filter di wireshark sebagai berikut: <br/ >
+**1a. Sequence number (raw) pada packet aktivitas mengunggah suatu file** 
+
+Langkah pertama adalah melakukan filter di wireshark sebagai berikut:
+
 ```ftp.request.command == STOR ``` <br />
+
 Perintah filter terserbut akan melakukan penyaringan pada lalu lintas jaringan yang mengandung perintah FTP (File Transfer Protocol) yang memiliki perintah "STOR". 
 - ftp.request.command: Bagian ini adalah bagian pertama dari filter. Ini mengacu pada protokol FTP dan mengidentifikasi paket-paket yang berisi perintah FTP yang dikirimkan dari klien FTP ke server FTP.
 - ==: Ini adalah operator perbandingan yang digunakan untuk memeriksa apakah nilai di sebelah kiri sama dengan nilai di sebelah kanan.
@@ -43,14 +46,14 @@ Dari filter tersebut, akan menghasilkan keluaran 1 paket sebagai berikut:
 
 <img width="958" alt="Screenshot at 2023-09-22 06_19_46-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/f9577de8-3c2a-46fd-8f4c-8075f6bcd787">
 
-Langkah kedua, kita lihat detail paket dengan cara double klik pada paket tersebut, kemudian expand bagian Transimission Control Protocol
+Langkah kedua, kita lihat detail paket dengan cara double klik pada paket tersebut, kemudian expand bagian `Transmission Control Protocol`
 
 <img width="956" alt="Screenshot at 2023-09-22 06_22_04-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/3abcf5ac-bee6-4e3e-8235-59dbb08a5a63">
 
 Dari informasi di atas, dapat dilihat bahwa sequence number (raw) pada packet yang dimaksud adalah `258040667`
 
 **1b. Acknowledge number (raw) pada packet aktivitas mengunggah suatu file** <br />
-Untuk melihat acknowledge number (raw) pada packet tersebut, kita dapat scroll ke bawah di bagian Transimission Control Protocol, sehingga diperoleh sebagai berikut:
+Untuk melihat acknowledge number (raw) pada packet tersebut, kita dapat scroll ke bawah di bagian `Transimission Control Protocol`, sehingga diperoleh sebagai berikut:
 
 <img width="961" alt="Screenshot at 2023-09-22 06_27_10-Jarkom-Modul-1-B04-2023 - Google Drive" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/2b9968e1-066e-46f8-89e6-c9f41cb6fc96">
 
@@ -67,7 +70,7 @@ Filter Wireshark tersebut digunakan untuk menyaring semua paket dalam capture ya
 
 <img width="956" alt="Screenshot at 2023-09-22 06_33_05-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/d94b7c75-adf6-4667-bc80-aa05825d091a">
 
-Selanjutnya, double click pada packet yang memiliki `Info Response` untuk melihat detail pada bagian Transimission Control Protocol
+Selanjutnya, double click pada packet yang memiliki `Info Response` untuk melihat detail pada bagian `Transimission Control Protocol`
 
 <img width="960" alt="Screenshot at 2023-09-22 06_36_27-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/bd2eac0e-a751-4484-a774-827ff04b4d8d">
 
@@ -229,8 +232,8 @@ Untuk melihat banyaknya port yang digunakan, klik salah satu detail service SMTP
 
 Pada section `Destination Port` dapat dilihat bahwa banyaknya port yang digunakan adalah sebanyak `25`
 
-**5c. IP Public yang tercapture**
-Untuk menentukan IP Public kita mengetahui bahwa untuk IP Private berkisar dari range 10.0.0.0 hingga 10.255.255.255, 172.16.0.0 hingga 171.31.255.255, dan 192.168.0.0 hingga 192.168.255.255. Di luar range tersebut merupakan IP Public. Berdasarkan analisis IP pada file tersebut, yang merupakan IP Public yang tercapture adalah `74.53.140.153`
+**5c. IP Public yang ter-capture**
+Untuk menentukan IP Public kita mengetahui bahwa untuk IP Private berkisar dari range `10.0.0.0` hingga `10.255.255.255`, `172.16.0.0` hingga `171.31.255.255`, dan `192.168.0.0` hingga `192.168.255.255`. Di luar range tersebut merupakan IP Public. Berdasarkan analisis IP pada file tersebut, yang merupakan IP Public yang tercapture adalah `74.53.140.153`
 
 <img width="961" alt="Screenshot at 2023-09-22 08_11_57-Jarkom-Modul-1-B04-2023 - Google Drive" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/69e7f7c5-eaaa-4a18-91be-708e35d5428c">
 
@@ -252,7 +255,7 @@ Langkah pertama, menggunakan filter untuk mencari `frame.number == 7812` sebab p
 
 <img width="958" alt="Screenshot at 2023-09-22 08_20_56-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/79084579-c2cf-43f7-8bb7-5218dbd80756">
 
-Langkah kedua,apabila kita menganalisis pada soal tersebut, terdapat beberapa kata yang kapital tidak sesuai dengan aturan tata bahasa. Jika kita gabungkan huruf kapital tersebut akan membentuk kata `SUBSTITUSI`
+Langkah kedua, apabila kita menganalisis pada soal tersebut, terdapat beberapa kata yang kapital tidak sesuai dengan aturan tata bahasa. Jika kita gabungkan huruf kapital tersebut akan membentuk kata `SUBSTITUSI`
 
 <img width="716" alt="Screenshot at 2023-09-22 08_25_04-Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/b3fee07f-0c89-466d-b9b0-1a9549f8a8ad">
 
@@ -347,9 +350,7 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 #### Langkah Pengerjaan beserta Screenshot
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 
-
 Langkah pertama, untuk mengambil semua paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34` adalah dengan memberikan filter expression `(ip.src == 10.51.40.1 && ip.dst != 10.39.55.34)`.
-
 
 
 Penjelasan filter :
