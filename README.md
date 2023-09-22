@@ -250,15 +250,16 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah sebagai berikut: <br />
 Langkah pertama, menggunakan filter untuk mencari `frame.number == 7812` sebab pada soal diketahui `server SOURCE ADDRESS 7812 is invalid` yang merupakan clue dari nomor paket. Diperoleh hasil filter sebagai berikut:
 
-<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/225fefba-eba0-4acf-bbbc-7ff9d177f7e6">
+<img width="958" alt="Screenshot at 2023-09-22 08_20_56-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/79084579-c2cf-43f7-8bb7-5218dbd80756">
 
 Langkah kedua,apabila kita menganalisis pada soal tersebut, terdapat beberapa kata yang kapital tidak sesuai dengan aturan tata bahasa. Jika kita gabungkan huruf kapital tersebut akan membentuk kata `SUBSTITUSI`
 
-<img width="716" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/35d88be8-ee6a-473a-885d-7b1c31897da1">
+<img width="716" alt="Screenshot at 2023-09-22 08_25_04-Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/b3fee07f-0c89-466d-b9b0-1a9549f8a8ad">
+
 
 Langkah ketiga, pada soal juga terdapat clue `a1 e5 u21`. Jika kita perhatikan clue tersebut menunjuk kepada alfabet dan urutannya, sebagai berikut:
 
-![image](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/11b3f686-1495-4fc9-851f-0464af91cb5b)
+![image](https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/ad4127b9-82ad-4754-8a2a-77c1697a7fc9)
 
 Langkah keempat, IP pada packet 7812 adalah `104.18.14.101`, jika kita melakukan substitusi angka tersebut menjadi huruf maka:
 
@@ -280,7 +281,7 @@ Jadi, solusi dari soal ini adalah `JDRNJA`
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-<img width="944" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/fc3bb1c7-e089-4329-b6c5-2f6322ed7cf9">
+<img width="944" alt="Screenshot at 2023-09-22 08_19_14-soal6-9 pcapng" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/1993167b-b09c-41ca-bbb2-b4564bcc0811">
 
 
 #### Kendala yang dialami
