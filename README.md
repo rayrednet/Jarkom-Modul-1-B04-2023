@@ -295,17 +295,15 @@ Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </
 Langkah pertama untuk mencari jumlah packet yang menuju IP 184.87.193.88 pada soal6-9.pcapng, dengan menggunakan filter expression ip.dst == 184.87.193.88, yang mana artinya paket mana saja yang menuju alamat ip 184.87.193.88
 
 
-![image](images/soal7part1)
 
 
 Lalu yang terakhir dan sesuai pada screenshot dibawah, jumlah packet yang terdisplay menuju alamat IP tersebut adalah 6.
 
-![image](images/soal7part2)
 
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-![image](images/flag7.png)
+
 
 #### Kendala yang dialami
 
@@ -321,7 +319,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 
 Langkah pertama untuk mengambil semua protokol yang menuju port 80, kita dapat menggunakan filter expression ini (tcp.dstport == 80 || udp.dstport == 80), digunakan untuk mencari paket-paket yang memiliki port tujuan (dstport) 80 baik menggunakan protokol TCP atau UDP.
 
-![image](images/soal8part1)
+
 
 Penjelasan filter :
     
@@ -332,7 +330,7 @@ Penjelasan filter :
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-![image](images/flag8.png)
+
 
 #### Kendala yang dialami
 
@@ -349,7 +347,7 @@ Langkah-langkah yang telah kami terapkan untuk menyelesaikan tugas ini adalah se
 
 Langkah pertama untuk mengambil semua paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34 adalah dengan memberikan filter expression (ip.src == 10.51.40.1 && ip.dst != 10.39.55.34).
 
-![image](images/soal9part1)
+
 
 Penjelasan filter :
 
@@ -376,11 +374,11 @@ Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal in
 
 Langkah pertama untuk mencari kredensial pada soal10.pcapng, kita dapat melakukannya dengan menggunakan filter telnet yang berhubungan dengan kredensial disini kami melakukannya dengan expression filter contains “Password” lalu paket yang berisi kredensial akan terfilter 
 
-![image](images/soal10part1)
+
 
 lalu berikutnya kita akan melakukan follow tcp stream, dan pada screenshot berikut terlihat bahwa paket tersebut tertangkap dan berisi kredensial yang benar.
 
-![image](images/soal10part2)
+
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
