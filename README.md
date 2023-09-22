@@ -41,11 +41,11 @@ Perintah filter terserbut akan melakukan penyaringan pada lalu lintas jaringan y
 - STOR: Ini adalah perintah FTP yang digunakan untuk mengunggah (upload) file ke server FTP
 Dari filter tersebut, akan menghasilkan keluaran 1 paket sebagai berikut:
 
-<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0a13ab79-650c-4ac8-b03a-1508c1e441af">
+<img width="958" alt="Screenshot at 2023-09-22 06_19_46-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/f9577de8-3c2a-46fd-8f4c-8075f6bcd787">
 
 Langkah kedua, kita lihat detail paket dengan cara double klik pada paket tersebut, kemudian expand bagian Transimission Control Protocol
 
-<img width="956" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0d8762f9-0d43-415a-bf50-f145a6f0ee3b">
+<img width="956" alt="Screenshot at 2023-09-22 06_22_04-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/3abcf5ac-bee6-4e3e-8235-59dbb08a5a63">
 
 Dari informasi di atas, dapat dilihat bahwa sequence number (raw) pada packet yang dimaksud adalah `258040667`
 
