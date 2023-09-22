@@ -222,12 +222,23 @@ Banyaknya packet yang tercapture dapat dilihat di bagian bawah kanan wireshark, 
 <img width="957" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/2e51c13f-4bdb-4eb8-8c06-552de36b9224">
 
 **5b. Port yang digunakan pada server untuk service SMTP**
+Untuk melihat banyaknya port yang digunakan, klik salah satu detail service SMTP dan expand bagian Transmission Control Protocol
+
+<img width="952" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0ecfd292-0725-4930-bf85-a293eb4f7e6b">
+
+Pada section `Destination Port` dapat dilihat bahwa banyaknya port yang digunakan adalah sebanyak `25`
+
+**5c. IP Public yang tercapture**
+Untuk menentukan IP Public kita mengetahui bahwa untuk IP Private berkisar dari range 10.0.0.0 hingga 10.255.255.255, 172.16.0.0 hingga 171.31.255.255, dan 192.168.0.0 hingga 192.168.255.255. Di luar range tersebut merupakan IP Public. Berdasarkan analisis IP pada file tersebut, yang merupakan IP Public yang tercapture adalah `74.53.140.153`
+
+<img width="961" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/8a3ee7be-a00d-4f95-afb7-7026f07bd187">
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
 <img width="309" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/6b67a613-9ed1-4628-b26c-3aa10b801007">
 
 #### Kendala yang dialami
+Kami sempat mengalami kendala untuk mendapatkan kode nc soal, namun masalah tersebut dapat teratasi saat praktikum berlangsung
 
 ### ⭐ Nomor 6
 ### Soal
