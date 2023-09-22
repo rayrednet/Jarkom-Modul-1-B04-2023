@@ -102,17 +102,17 @@ Langkah pertama, gunakan filter pada wireshark:
 
 Karena kita harus mencari web server maka protocol yang digunakan adalah `HTTP`, dan gunakan keyword pada filter `Praktikum` sebab kita harus mencari web server pada portal praktikum jaringan komputer. Filter tersebut akan mengeluarkan hasil sebagai berikut:
 
-<img width="946" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/287c83ce-5cdd-40a9-9709-ea73eab6bb5e">
+<img width="946" alt="Screenshot at 2023-09-22 06_48_31-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/cde87086-defc-4a2b-9e89-cf0fa658818f">
 
 Langkah kedua, pilih packet yang pertama (memiliki tulisan `OK (text/html)`), klik kanan pilih `Follow -> HTTP Stream`. Akan terbuka window sebagai berikut:
 
-<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/32780dbe-70a0-4b51-a8ef-bc6dde1cc341">
+<img width="958" alt="Screenshot at 2023-09-22 06_52_17-" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/dff94ca1-effe-4373-bd70-96855ed682c0">
 
 Jadi, web server yang digunakan pada portal praktikum Jaringan Komputer adalah `gunicorn`
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-<img width="780" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/67ff7314-cf82-438f-ab9c-b9772751df90">
+<img width="780" alt="Screenshot at 2023-09-22 06_55_13-Screenshot at 2023-09-18 21_51_20-(1) WhatsApp png ‎- Photos" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0d72d44a-cf50-4709-bdc5-d1fbbfb2fcf6">
 
 #### Kendala yang dialami
 Belum ditemukan kendala saat mengerjakan soal nomor 2
