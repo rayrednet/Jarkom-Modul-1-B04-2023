@@ -171,10 +171,27 @@ Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 #### Langkah Pengerjaan beserta Screenshot
 Untuk mencapai penyelesaian masalah ini, kami telah melakukan langkah-langkah berikut: </br>
 
+Langkah pertama, gunakan filter wireshark
+
+`frame.number == 130`
+
+Filter Wireshark frame.number == 130 digunakan untuk menangkap paket dengan nomor urut (sequence number) frame tertentu dalam capture. Maka, ketika kita menggunakan filter ini kita akan melihat atau menangkap paket yang memiliki nomor urut frame tepat 130 dalam capture tersebut.
+
+Ketika filter tersebut dijalankan diperoleh:
+
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/1218b884-d53f-4ca4-ac57-848e71766579">
+
+Langkah kedua, double click pada packet yang diperoleh dan expan pada bagian User Datagram Protocol. Disitu kita akan melihat nilai checksum
+<img width="955" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/4418ca66-b9c8-4639-a7cc-11e47288cd85">
+
+Jadi dapat dilihat bahwa nilai checksumnya adalah `0x18e5`
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
+<img width="493" alt="Screenshot at 2023-09-18 21_51_54-(1) WhatsApp" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/7df8203e-cdfc-48c3-861c-92326808d10f">
 
 #### Kendala yang dialami
+Belum ditemukan kendala dalam pengerjaan soal nomor 4
 
 ### ⭐ Nomor 5
 ### Soal
