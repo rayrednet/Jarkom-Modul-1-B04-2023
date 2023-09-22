@@ -205,37 +205,38 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP? 
 Berikut ini adalah langkah-langkah yang kami lakukan untuk menyelesaikan soal ini: <br />
 Langkah pertama, kita harus menemukan `nc` pada soal ini terlebih dahulu. Untuk mencarinya, kita lihat pada file `pcap` yang disediakan. Protokol SMTP merupakan protokol yang digunakan untuk mengirim email. Apabila kita melakukan follow TCP Stream pada salah satu packet SMTP kita akan memperoleh pesan tersembunyi sebagai berikut:
 
-<img width="959" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/40b11b36-798c-4f9c-b16f-0b1c726e39e0">
+<img width="955" alt="Screenshot at 2023-09-22 07_31_42-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/87a8ab8e-015d-4d43-8597-56132b02253e">
 
 Pada soal ini juga terdapat file .zip yang diberi password untuk membukanya. Untuk mengetahui password dari file zip tersebut, kita harus melakukan decrypt sesuai yang tertera pada email tersebut. Kami menggunakan bantuan dari https://www.base64decode.org/ untuk melakukan dekripsi yang diperoleh sebagai berikut:
 
-<img width="369" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/16befc01-cdb4-4389-b99d-91dc19fbfb15">
+<img width="369" alt="Screenshot at 2023-09-22 07_40_12-Base64 Decode and Encode - Online" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9947c22e-7f32-4756-8093-e8313b8a6c3d">
+
 
 Maka, password dari file .zip tersebut adalah `5implePas5word`. Setelah itu, kita unzip file zip dan ditemukan file .txt yang berisi `nc` soal sebagai berikut:
 
-<img width="246" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/c1d809ef-d5a8-422b-939f-4cbfd47dd775">
+<img width="246" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/2381a674-97eb-42fa-9822-9f518124f15e">
 
 **5a. Banyak packet di file pcap**
 
 Banyaknya packet yang tercapture dapat dilihat di bagian bawah kanan wireshark, yaitu `60` packet.
 
-<img width="957" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/2e51c13f-4bdb-4eb8-8c06-552de36b9224">
+<img width="957" alt="Screenshot at 2023-09-22 07_45_53-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/10173857-abec-4c21-b6c1-fe51f30922ae">
 
 **5b. Port yang digunakan pada server untuk service SMTP**
-Untuk melihat banyaknya port yang digunakan, klik salah satu detail service SMTP dan expand bagian Transmission Control Protocol
+Untuk melihat banyaknya port yang digunakan, klik salah satu detail service SMTP dan expand bagian `Transmission Control Protocol`
 
-<img width="952" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0ecfd292-0725-4930-bf85-a293eb4f7e6b">
+<img width="952" alt="Screenshot at 2023-09-22 08_10_22-soal5 pcap" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9a43e1e9-43b1-4028-9f2a-9e5212cdecd1">
 
 Pada section `Destination Port` dapat dilihat bahwa banyaknya port yang digunakan adalah sebanyak `25`
 
 **5c. IP Public yang tercapture**
 Untuk menentukan IP Public kita mengetahui bahwa untuk IP Private berkisar dari range 10.0.0.0 hingga 10.255.255.255, 172.16.0.0 hingga 171.31.255.255, dan 192.168.0.0 hingga 192.168.255.255. Di luar range tersebut merupakan IP Public. Berdasarkan analisis IP pada file tersebut, yang merupakan IP Public yang tercapture adalah `74.53.140.153`
 
-<img width="961" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/8a3ee7be-a00d-4f95-afb7-7026f07bd187">
+<img width="961" alt="Screenshot at 2023-09-22 08_11_57-Jarkom-Modul-1-B04-2023 - Google Drive" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/69e7f7c5-eaaa-4a18-91be-708e35d5428c">
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-<img width="309" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/6b67a613-9ed1-4628-b26c-3aa10b801007">
+<img width="576" alt="Screenshot at 2023-09-18 21_52_24-(1) WhatsApp" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/52f36098-03bb-4306-98d2-4ebddb66d197">
 
 #### Kendala yang dialami
 Kami sempat mengalami kendala untuk mendapatkan kode nc soal, namun masalah tersebut dapat teratasi saat praktikum berlangsung
