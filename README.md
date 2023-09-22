@@ -291,6 +291,7 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 ### Jawaban:
 #### Langkah Pengerjaan beserta Screenshot
 Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
+
 Langkah pertama untuk mencari jumlah packet yang menuju IP 184.87.193.88 pada soal6-9.pcapng, dengan menggunakan filter expression ip.dst == 184.87.193.88, yang mana artinya paket mana saja yang menuju alamat ip 184.87.193.88
 
 
