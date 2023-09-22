@@ -128,9 +128,40 @@ b. Protokol layer transport apa yang digunakan? <br />
 #### Langkah Pengerjaan beserta Screenshot
 Inilah tahapan yang telah kami lakukan untuk berhasil menyelesaikan soal ini: </br >
 
+**3a. Banyak packet dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702**
+Untuk melihat banyak packet sesuai dengan kriteria tersebut, gunakan filter pencarian berikut:
+
+```
+(ip.src == 239.255.255.250 && udp.port == 3702) || (ip.dst == 239.255.255.250 && udp.port == 3702)
+```
+- ip.src == 239.255.255.250 && udp.port == 3702: Ini berarti filter akan menangkap paket-paket yang memiliki alamat IP sumber (source) 239.255.255.250 dan port UDP 3702.
+
+- ip.dst == 239.255.255.250 && udp.port == 3702: Ini berarti filter akan menangkap paket-paket yang memiliki alamat IP tujuan (destination) 239.255.255.250 dan port UDP 3702.
+
+Penggunaan UDP dalam filter ini  disebabkan oleh jenis komunikasi atau lalu lintas yang dituju. Banyak aplikasi yang menggunakan UDP untuk komunikasi multicast atau broadcast, dan filter ini sepertinya dirancang untuk menangkap paket-paket yang terkait dengan komunikasi multicast yang memiliki alamat IP tertentu (239.255.255.250) dan port tertentu (3702).
+
+<img width="960" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/adc045cd-908d-42ee-9789-aa94c1b794f1">
+
+Pada bagian bawah, dapat dilihat `Displayed:21`, maka terdapat 21 packet yang memenuhi kriteria tersebut
+
+**1b. Protokol layer transport yang digunakan**
+
+Apabila kita mencari dengan filter UDP, SCTP, dan FTP berturut-turut diperoleh sebagai berikut:
+
+<img width="957" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/7aa0aa36-bbe2-46a8-af17-321237ecf7d1">
+
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/1c93087b-1c10-4ec8-a035-e8546a24625d">
+
+<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/3eff64a9-cfc7-43e8-9cf6-938df80b22bf">
+
+Maka dari itu protokol layer transport yang digunakan adalah `UDP`. Protokol layer transport bervariasi, tidak hanya 3 protokol itu, namun yang memenuhi kriteria soal 1a yang memungkinkan adalah ketiga layer transport tersebut.
+
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
+<img width="878" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9cc91f00-b9a3-40d6-aa62-105cc13dd132">
+
 #### Kendala yang dialami
+Belum ditemukan kendala dalam pengerjaan soal nomor 3
 
 ### ⭐ Nomor 4
 ### Soal
