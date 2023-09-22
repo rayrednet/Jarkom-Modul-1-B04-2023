@@ -139,7 +139,7 @@ Untuk melihat banyak packet sesuai dengan kriteria tersebut, gunakan filter penc
 
 Penggunaan UDP dalam filter ini  disebabkan oleh jenis komunikasi atau lalu lintas yang dituju. Banyak aplikasi yang menggunakan UDP untuk komunikasi multicast atau broadcast, dan filter ini sepertinya dirancang untuk menangkap paket-paket yang terkait dengan komunikasi multicast yang memiliki alamat IP tertentu (239.255.255.250) dan port tertentu (3702).
 
-<img width="960" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/adc045cd-908d-42ee-9789-aa94c1b794f1">
+<img width="960" alt="Screenshot at 2023-09-22 07_00_29-Photos" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/b34c1c63-1555-4bb5-9681-664e10dd23f6">
 
 Pada bagian bawah, dapat dilihat `Displayed:21`, maka terdapat 21 packet yang memenuhi kriteria tersebut
 
@@ -147,17 +147,17 @@ Pada bagian bawah, dapat dilihat `Displayed:21`, maka terdapat 21 packet yang me
 
 Apabila kita mencari dengan filter UDP, SCTP, dan FTP berturut-turut diperoleh sebagai berikut:
 
-<img width="957" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/7aa0aa36-bbe2-46a8-af17-321237ecf7d1">
+<img width="957" alt="Screenshot at 2023-09-22 07_09_41-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9e3f2e27-c2a5-4f84-be71-e781081dcb0e">
 
-<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/1c93087b-1c10-4ec8-a035-e8546a24625d">
+<img width="958" alt="Screenshot at 2023-09-22 07_10_04-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/089e275f-52fc-41f6-939f-3a8178dbb6cc">
 
-<img width="958" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/3eff64a9-cfc7-43e8-9cf6-938df80b22bf">
+<img width="958" alt="Screenshot at 2023-09-22 07_10_17-Settings" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/0221bf24-d8ca-4b84-8d1e-263a3e173e4f">
 
 Maka dari itu protokol layer transport yang digunakan adalah `UDP`. Protokol layer transport bervariasi, tidak hanya 3 protokol itu, namun yang memenuhi kriteria soal 1a yang memungkinkan adalah ketiga layer transport tersebut.
 
 Flag yang kami peroleh untuk soal ini adalah sebagai berikut:
 
-<img width="878" alt="image" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/9cc91f00-b9a3-40d6-aa62-105cc13dd132">
+<img width="878" alt="Screenshot at 2023-09-22 07_05_10-Screenshot at 2023-09-18 19_26_36-Greenshot png ‎- Photos" src="https://github.com/rayrednet/Jarkom-Modul-1-B04-2023/assets/89933907/13a93701-0c22-4681-937e-4801455e0ff3">
 
 #### Kendala yang dialami
 Belum ditemukan kendala dalam pengerjaan soal nomor 3
